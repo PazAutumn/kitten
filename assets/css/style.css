@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 84% 14%;
+}
+
+.kitten {
+  height: 285px;
+  width: 465px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+

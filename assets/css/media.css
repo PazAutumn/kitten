@@ -1,0 +1,32 @@
+@media (max-width: 900px) {
+  body {
+    background-image: url(../img/dawn.png);
+    background-size: 120%;
+    background-position: top;
+  }
+  .kitten {
+    background-image: url(../img/kitten-large.png);
+    background-size: 50%;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1280px) {
+  body {
+    background-image: url(../img/night.jpg);
+    background-size: 150%;
+  }
+  .kitten {
+    background-image: url(../img/kitten-small.png);
+    background-size: 60%;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  body{
+    background-image: url(../img/sunny-day.jpg);
+  }
+  .kitten {
+    background-image: url(../img/kitten-medium.png);
+    background-size: 70%;
+  }
+}
